@@ -24,18 +24,28 @@ Assessed model performance using key metrics like precision, recall, and mAP.
 
 #### Skills take away FromThis Project
 Python
+
 Computer Vision
+
 OpenCV
+
 Streamlit
 
 #### Technical Tags:
 • Python
+
 • OpenCV
+
 • Streamlit
+
 • Deep Learning: YOLO object detection model.
+
 • Computer Vision: OpenCV for preprocessing and visualization.
+
 • OCR Technology: Tesseract/EasyOCR for text recognition.
+
 • Web Application: Streamlit for interactive deployment.
+
 • Python Libraries: NumPy, Pandas, Matplotlib, Seaborn, TensorFlow/PyTorch.
 • Image Processing: Includes resizing, contrast enhancement, and edge detection techniques.
 
