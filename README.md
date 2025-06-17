@@ -47,5 +47,6 @@ Streamlit
 • Web Application: Streamlit for interactive deployment.
 
 • Python Libraries: NumPy, Pandas, Matplotlib, Seaborn, TensorFlow/PyTorch.
+
 • Image Processing: Includes resizing, contrast enhancement, and edge detection techniques.
 
