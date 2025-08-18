@@ -1,52 +1,61 @@
 # Military-Soldier-Safety-and-Weapon-Detection-using-YOLO-and-Computer-Vision
 
-This project uses a YOLOv8-based object detection model to identify military-related objects, including soldiers, weapons, vehicles, trenches, and civilians. It aims to assist in situational awareness, safety monitoring, and threat detection using computer vision.
+This project, "Military-Soldier-Safety-and-Weapon-Detection," uses a YOLOv8-based object detection model to identify military-related objects such as soldiers, weapons, vehicles, trenches, and civilians. The goal is to enhance situational awareness, safety monitoring, and threat detection through the application of computer vision.
 
-### Project Approach 
-#### Data Collection & Preprocessing
-Gathered a labeled dataset with YOLO annotations covering military and civilian objects.
-Applied preprocessing to ensure YOLO compatibility (resizing, normalization, augmentation).
+# Key Features
 
-#### Model Training
-Trained a YOLO model to detect and classify objects such as soldiers, weapons, vehicles, and trenches.
+- Object Detection: A custom-trained YOLOv8 model that accurately identifies and classifies objects     relevant to a military environment.
 
-#### Real-Time Detection
-Enabled detection from real-time video feeds or uploaded images using the trained model.
+- Real-Time Processing: The model can perform real-time object detection on video feeds, allowing for   immediate analysis.
 
-#### Threat Classification
-Categorized detected objects into threats (e.g., weapons, enemy soldiers) and non-threats (e.g., civilians, friendly soldiers).
+- Threat Classification: Objects are categorized as threats (e.g., weapons, hostile soldiers) or non-   threats (e.g., civilians).
 
-#### Streamlit Web Interface
-Developed an interactive web app for image/video upload and visualizing detection results.
+- Interactive Web App: A user-friendly web interface built with Streamlit allows users to upload        images or videos and visualize the detection results.
 
-#### Model Evaluation
-Assessed model performance using key metrics like precision, recall, and mAP.
+- Performance Evaluation: The model's effectiveness is measured using standard metrics like             precision, recall, and mAP.
 
-#### Skills take away FromThis Project
-Python
+# Project Workflow
 
-Computer Vision
+1. Data Collection and Preprocessing: A labeled dataset with YOLO annotations was gathered and         preprocessed for compatibility with the model.
 
-OpenCV
+2. Model Training: A YOLO model was trained on the preprocessed data to detect and classify            specific objects.
 
-Streamlit
+3. Real-Time Detection: The trained model is used to process video streams or static images,           identifying objects in real time.
 
-#### Technical Tags:
-• Python
+4. Deployment: The model is deployed as a web application using Streamlit, making it accessible and    easy to use.
 
-• OpenCV
+# Technologies Used
 
-• Streamlit
+Category	          Technology
+Language	          Python
+Deep Learning     	YOLOv8
+Libraries	          OpenCV, Streamlit, NumPy
+Deployment	        Streamlit
 
-• Deep Learning: YOLO object detection model.
+# How to Run the App
 
-• Computer Vision: OpenCV for preprocessing and visualization.
+Follow these steps to get the project up and running on your local machine.
 
-• OCR Technology: Tesseract/EasyOCR for text recognition.
+1. Clone the repository:
 
-• Web Application: Streamlit for interactive deployment.
+git clone https://github.com/JOTHILAKSHMI-H/Military-Soldier-Safety-and-Weapon-Detection-using-YOLO-and-Computer-Vision.git
 
-• Python Libraries: NumPy, Pandas, Matplotlib, Seaborn, TensorFlow/PyTorch.
+cd Military-Soldier-Safety-and-Weapon-Detection-using-YOLO-and-Computer-Vision
 
-• Image Processing: Includes resizing, contrast enhancement, and edge detection techniques.
+2. Install dependencies:
 
+   - Ensure you have a Python environment set up.
+
+   - Install the required libraries from the requirements.txt file.
+
+pip install -r requirements.txt
+
+3. Place the trained model:
+
+Ensure your trained .pt or .h5 model file is in the correct directory as specified in the military.py script.
+
+4. Run the Streamlit app:
+
+streamlit run military.py
+
+This command will launch the web application in your default browser.
