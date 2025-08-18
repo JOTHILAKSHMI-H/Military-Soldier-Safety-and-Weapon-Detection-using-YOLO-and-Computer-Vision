@@ -2,6 +2,18 @@
 
 This project, "Military-Soldier-Safety-and-Weapon-Detection," uses a YOLOv8-based object detection model to identify military-related objects such as soldiers, weapons, vehicles, trenches, and civilians. The goal is to enhance situational awareness, safety monitoring, and threat detection through the application of computer vision.
 
+
+# Model Prediction Showcase
+
+This image showcases the model's ability to detect and classify various military objects in different scenarios. The bounding boxes indicate the detected objects, and the labels show the predicted class (e.g., "military_tank", "military_aircraft".....) along with the model's confidence score.
+
+![val_batch0_pred](https://github.com/user-attachments/assets/18f65dcd-8228-46b1-9127-2bfb90c41198)
+
+![val_batch1_pred](https://github.com/user-attachments/assets/d1853c70-5121-426a-ba1c-ea29b3346fa2)
+
+![val_batch2_pred](https://github.com/user-attachments/assets/05824212-9a64-40a6-ad3d-fc26f9f1d754)
+
+
 # Key Features
 
 - Object Detection: A custom-trained YOLOv8 model that accurately identifies and classifies objects relevant to a military environment.
