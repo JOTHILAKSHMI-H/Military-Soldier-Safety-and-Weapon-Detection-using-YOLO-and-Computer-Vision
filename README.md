@@ -15,9 +15,6 @@ This image showcases the model's ability to detect and classify various military
 
 ![val_batch1_pred](https://github.com/user-attachments/assets/d1853c70-5121-426a-ba1c-ea29b3346fa2)
 
-# prediction_3
-
-![val_batch2_pred](https://github.com/user-attachments/assets/05824212-9a64-40a6-ad3d-fc26f9f1d754)
 
 
 # Key Features
