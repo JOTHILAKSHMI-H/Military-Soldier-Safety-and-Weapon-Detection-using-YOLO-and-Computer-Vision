@@ -7,9 +7,15 @@ This project, "Military-Soldier-Safety-and-Weapon-Detection," uses a YOLOv8-base
 
 This image showcases the model's ability to detect and classify various military objects in different scenarios. The bounding boxes indicate the detected objects, and the labels show the predicted class (e.g., "military_tank", "military_aircraft".....) along with the model's confidence score.
 
+# prediction_1
+
 ![val_batch0_pred](https://github.com/user-attachments/assets/18f65dcd-8228-46b1-9127-2bfb90c41198)
 
+# prediction_2
+
 ![val_batch1_pred](https://github.com/user-attachments/assets/d1853c70-5121-426a-ba1c-ea29b3346fa2)
+
+# prediction_3
 
 ![val_batch2_pred](https://github.com/user-attachments/assets/05824212-9a64-40a6-ad3d-fc26f9f1d754)
 
