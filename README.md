@@ -52,7 +52,7 @@ cd Military-Soldier-Safety-and-Weapon-Detection-using-YOLO-and-Computer-Vision
 
    - Install the required libraries from the requirements.txt file.
 
-pip install -r requirements.txt
+       pip install -r requirements.txt
 
 3. Place the trained model:
 
