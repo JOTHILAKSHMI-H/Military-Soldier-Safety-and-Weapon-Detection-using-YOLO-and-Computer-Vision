@@ -64,5 +64,3 @@ Follow these steps to get the project up and running on your local machine.
 
   This command will launch the web application in your default browser.
 
-![val_batch0_pred](https://github.com/user-attachments/assets/a14da555-4222-4604-86ca-bc6a180c14c8)
-
