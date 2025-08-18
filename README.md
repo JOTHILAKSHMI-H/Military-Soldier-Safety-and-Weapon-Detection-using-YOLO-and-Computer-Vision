@@ -26,11 +26,15 @@ This project, "Military-Soldier-Safety-and-Weapon-Detection," uses a YOLOv8-base
 
 # Technologies Used
 
-Category	          Technology
-Language	          Python
-Deep Learning     	YOLOv8
+Category	            Technology
+
+Language              Python
+
+Deep Learning     	 YOLOv8
+
 Libraries	          OpenCV, Streamlit, NumPy
-Deployment	        Streamlit
+
+Deployment	          Streamlit
 
 # How to Run the App
 
