@@ -42,24 +42,24 @@ Follow these steps to get the project up and running on your local machine.
 
 1. Clone the repository:
 
-git clone https://github.com/JOTHILAKSHMI-H/Military-Soldier-Safety-and-Weapon-Detection-using-YOLO-and-Computer-Vision.git
+   git clone https://github.com/JOTHILAKSHMI-H/Military-Soldier-Safety-and-Weapon-Detection-using-     YOLO-and-Computer-Vision.git
 
-cd Military-Soldier-Safety-and-Weapon-Detection-using-YOLO-and-Computer-Vision
+   cd Military-Soldier-Safety-and-Weapon-Detection-using-YOLO-and-Computer-Vision
 
 2. Install dependencies:
 
-   - Ensure you have a Python environment set up.
+    - Ensure you have a Python environment set up.
 
-   - Install the required libraries from the requirements.txt file.
+    - Install the required libraries from the requirements.txt file.
 
        pip install -r requirements.txt
 
 3. Place the trained model:
 
-Ensure your trained .pt or .h5 model file is in the correct directory as specified in the military.py script.
+     Ensure your trained .pt or .h5 model file is in the correct directory as specified in the           military.py script.
 
 4. Run the Streamlit app:
 
-streamlit run military.py
+    streamlit run military.py
 
-This command will launch the web application in your default browser.
+  This command will launch the web application in your default browser.
