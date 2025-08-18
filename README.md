@@ -63,3 +63,7 @@ Follow these steps to get the project up and running on your local machine.
     streamlit run military.py
 
   This command will launch the web application in your default browser.
+
+### 📷 Sample Prediction Output
+
+![Prediction Result](val_batch0_labels.jpg)
